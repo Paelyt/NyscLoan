@@ -9380,7 +9380,7 @@ public ActionResult SecondApproval(string Refid, TableObjects.LoanApplication Lo
                         for (var w = 0; w <= LoansDue.Count; w++)
                         {
                             double debitAmount = 0;
-                            double.TryParse(LoansDue[w].Debit.ToString(), out debitAmount);
+                            double.TryParse(LoansDue[w].AmountPaid.ToString(), out debitAmount);
 
                             string mandateID = LoansDue[w].Company;
                             string bankCode = LoansDue[w].Location;
@@ -9463,8 +9463,8 @@ public ActionResult SecondApproval(string Refid, TableObjects.LoanApplication Lo
                 if (rec.ID != 0 && rec != null)
                 {
 
-                    jobj.mandateId = "160386148950";//rec.mandateID;//"160386148950";//Convert.ToString(rec.MandateId);
-                    jobj.requestId = "1583765067792";//rec.PatnerReference;//"1583765067792";//Convert.ToString(rec.requestId);
+                    jobj.mandateId = rec.MandateID;//"160386148950";///"160386148950";//Convert.ToString(rec.MandateId);
+                    jobj.requestId = rec.PatnerReference;//"1583765067792";////"1583765067792";//Convert.ToString(rec.requestId);
 
                     var json = jobj.ToString();
 

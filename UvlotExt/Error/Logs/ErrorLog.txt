@@ -108034,3 +108034,344 @@ Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<s
 Message: Index was out of range. Must be non-negative and less than the size of the collection.
 Parameter name: index
 
+--------------------------
+2021/01/12 @ 16:35:37
+--------------------------
+Message: Valid
+
+--------------------------
+2021/01/12 @ 16:35:37
+--------------------------
+Message: EmailAddress modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:35:37
+--------------------------
+Message:  user.PaswordVal  5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+--------------------------
+2021/01/12 @ 16:35:37
+--------------------------
+Message: am new here modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:35:39
+--------------------------
+Message: am new here0 modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:35:39
+--------------------------
+Message: Valid1False
+
+--------------------------
+2021/01/12 @ 16:36:08
+--------------------------
+Message: Am here
+
+--------------------------
+2021/01/12 @ 16:36:15
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:36:32
+--------------------------
+Message: Nullable object must have a value.
+
+--------------------------
+2021/01/12 @ 16:37:03
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:37:27
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:37:28
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:37:28
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:37:28
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:37:28
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:37:28
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:01
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:38:01
+--------------------------
+Message: Value was either too large or too small for an Int16.
+
+--------------------------
+2021/01/12 @ 16:38:02
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:09
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:38:09
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:09
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:10
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:10
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:10
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:18
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:38:18
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:18
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:19
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:19
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:38:19
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:40:13
+--------------------------
+Message: Valid
+
+--------------------------
+2021/01/12 @ 16:40:13
+--------------------------
+Message: EmailAddress modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:40:13
+--------------------------
+Message:  user.PaswordVal  5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+--------------------------
+2021/01/12 @ 16:40:13
+--------------------------
+Message: am new here modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:40:19
+--------------------------
+Message: am new here1 modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:40:19
+--------------------------
+Message: Valid1True
+
+--------------------------
+2021/01/12 @ 16:40:22
+--------------------------
+Message: Valid2True
+
+--------------------------
+2021/01/12 @ 16:40:22
+--------------------------
+Message: users.Email 2modesanya@gmail.com
+
+--------------------------
+2021/01/12 @ 16:40:22
+--------------------------
+Message: Am here
+
+--------------------------
+2021/01/12 @ 16:40:27
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:40:33
+--------------------------
+Message: Nullable object must have a value.
+
+--------------------------
+2021/01/12 @ 16:41:08
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:41:21
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:41:24
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:41:38
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:41:38
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:41:38
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:41:59
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:42:04
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:42:06
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:42:07
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:42:07
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:42:07
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:44:04
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:44:10
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:44:12
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:44:13
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:44:13
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:44:14
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/12 @ 16:46:27
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:46:59
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:52:49
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 16:59:52
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 17:00:00
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 17:00:03
+--------------------------
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+--------------------------
+2021/01/12 @ 17:00:48
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/12 @ 17:01:18
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
