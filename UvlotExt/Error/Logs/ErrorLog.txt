@@ -108375,3 +108375,193 @@ Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<s
 --------------------------
 Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
 
+--------------------------
+2021/01/14 @ 12:04:54
+--------------------------
+Message: Valid
+
+--------------------------
+2021/01/14 @ 12:04:55
+--------------------------
+Message: EmailAddress modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:04:55
+--------------------------
+Message:  user.PaswordVal  5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+--------------------------
+2021/01/14 @ 12:04:55
+--------------------------
+Message: am new here modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:04:57
+--------------------------
+Message: am new here0 modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:04:57
+--------------------------
+Message: Valid1False
+
+--------------------------
+2021/01/14 @ 12:05:15
+--------------------------
+Message: users.Email 2modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:05:16
+--------------------------
+Message: Am here
+
+--------------------------
+2021/01/14 @ 12:05:21
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/14 @ 12:05:25
+--------------------------
+Message: Nullable object must have a value.
+
+--------------------------
+2021/01/14 @ 12:07:22
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/14 @ 12:12:41
+--------------------------
+Message: Object reference not set to an instance of an object.
+
+--------------------------
+2021/01/14 @ 12:13:12
+--------------------------
+Message: Valid
+
+--------------------------
+2021/01/14 @ 12:13:12
+--------------------------
+Message: EmailAddress modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:13:12
+--------------------------
+Message:  user.PaswordVal  5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+--------------------------
+2021/01/14 @ 12:13:12
+--------------------------
+Message: am new here modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:13:12
+--------------------------
+Message: am new here0 modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:13:12
+--------------------------
+Message: Valid1False
+
+--------------------------
+2021/01/14 @ 12:13:21
+--------------------------
+Message: Am here
+
+--------------------------
+2021/01/14 @ 12:13:24
+--------------------------
+Message: Valid
+
+--------------------------
+2021/01/14 @ 12:13:24
+--------------------------
+Message: EmailAddress modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:13:24
+--------------------------
+Message:  user.PaswordVal  5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+--------------------------
+2021/01/14 @ 12:13:24
+--------------------------
+Message: am new here modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:13:24
+--------------------------
+Message: am new here0 modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:13:24
+--------------------------
+Message: Valid1False
+
+--------------------------
+2021/01/14 @ 12:13:29
+--------------------------
+Message: Am here
+
+--------------------------
+2021/01/14 @ 12:13:32
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/14 @ 12:17:03
+--------------------------
+Message: Nullable object must have a value.
+
+--------------------------
+2021/01/14 @ 12:17:05
+--------------------------
+Message: Valid
+
+--------------------------
+2021/01/14 @ 12:17:05
+--------------------------
+Message: EmailAddress modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:17:05
+--------------------------
+Message:  user.PaswordVal  5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+--------------------------
+2021/01/14 @ 12:17:05
+--------------------------
+Message: am new here modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:17:05
+--------------------------
+Message: am new here0 modesanya@gmail.com
+
+--------------------------
+2021/01/14 @ 12:17:05
+--------------------------
+Message: Valid1False
+
+--------------------------
+2021/01/14 @ 12:17:09
+--------------------------
+Message: Valid3False
+
+--------------------------
+2021/01/14 @ 12:18:42
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/14 @ 12:26:31
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+
+--------------------------
+2021/01/14 @ 12:29:13
+--------------------------
+Message: Cannot implicitly convert type 'System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<DataAccessA.Classes.Menus>>' to 'string'
+

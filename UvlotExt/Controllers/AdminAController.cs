@@ -9288,7 +9288,6 @@ public ActionResult SecondApproval(string Refid, TableObjects.LoanApplication Lo
                     }
                     else
                     {
-
                         TempData["ErrMsg"] = jObj.respDescription;
                     }
                 }
@@ -9419,8 +9418,11 @@ public ActionResult SecondApproval(string Refid, TableObjects.LoanApplication Lo
             }
         }
 
+
+
         public ActionResult CBIndividualBorower()
         {
+
             try
             {
                 TempData["SucMsg"] = ""; TempData["ErrMsg"] = "";

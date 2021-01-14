@@ -353,13 +353,7 @@ namespace DataAccessA.Classes
     }
 
 
-
-
-
-
-
-
-
+    
     public class BVNRecords
     {
         public int ID { get; set; }
@@ -475,6 +469,57 @@ namespace DataAccessA.Classes
         public string DueMonth { get; set; }
     }
 
+
+    public class IndividualBorrower
+    {
+        public string CustomerID { get; set; }
+        public string BranchCode { get; set; }
+        public string Surname { get; set; }
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string DateOfBirth { get; set; }
+        public string NationalIdentityNumber { get; set; }
+        public string DriversLicenseNo { get; set; }
+        public string BVNNo { get; set; }
+        public string PassportNo { get; set; }
+        public string Genders { get; set; }
+        public string Nationality { get; set; }
+        public string MaritalStatus { get; set; }
+        public string MobileNumber { get; set; }
+        public string PrimaryAddressLine1 { get; set; }
+        public string PrimaryAddressLine2 { get; set; }
+        public string PrimarycityLGA { get; set; }
+        public string PrimaryState { get; set; }
+        public string PrimaryCountry { get; set; }
+        public string EmploymentStatus { get; set; }
+        public string Occupation { get; set; }
+        public string BusinessCategory { get; set; }
+        public string BusinessSector { get; set; }
+        public string BorrowerType { get; set; }
+        public string OtherID { get; set; }
+        public string TaxID { get; set; }
+        public string PictureFilePath { get; set; }
+        public string EmailAddress { get; set; }
+        public string EmployerName { get; set; }
+        public string EmployerAddressLine1 { get; set; }
+        public string EmployerAddressLine2 { get; set; }
+        public string EmployerCity { get; set; }
+        public string EmployerState { get; set; }
+        public string EmployerCountry { get; set; }
+        public string Titles { get; set; }
+        public string PlaceOfBirth { get; set; }
+        public string WorkPhone { get; set; }
+        public string HomePhone { get; set; }
+        public string SecondaryAddressLine1 { get; set; }
+        public string SecondaryAddressLine2 { get; set; }
+        public string SecondaryAddressCityLGA { get; set; }
+        public string SecondaryAddressState { get; set; }
+        public string SecondaryAddressCountry { get; set; }
+        public string SpouseSurname { get; set; }
+        public string SpouseFirstName { get; set; }
+        public string SpouseMiddleName { get; set; }
+
+    }
 
     public class Invoice
     {

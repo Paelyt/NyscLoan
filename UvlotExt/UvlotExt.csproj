@@ -1011,6 +1011,7 @@
     <Content Include="Views\AdminA\ConfirmPaymentss.cshtml" />
     <Content Include="Views\AdminA\ConfirmPayment.cshtml" />
     <Content Include="Views\AdminA\MonthlyRepayment.cshtml" />
+    <Content Include="Views\AdminA\CBIndividualBorower.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
