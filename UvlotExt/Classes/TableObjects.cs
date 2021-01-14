@@ -7,6 +7,30 @@ namespace UvlotExt.Classes
 {
     public class TableObjects
     {
+
+        public class Remitaresp
+        {
+            public string respCode { get; set; }
+
+            public string respDescription { get; set; }
+
+            public float Amount { get; set; }
+
+            public string requestID { get; set; }
+
+            public string mandateID { get; set; }
+
+            public string transactionRef { get; set; }
+
+
+            public string RRR { get; set; }
+
+            public string refNumber { get; set; }
+
+            public string fundingBankCode { get; set; }
+
+            public string fundingAccount { get; set; }
+        }
         public partial class LoanApplication
         {
             public int ID { get; set; }
@@ -16,6 +40,7 @@ namespace UvlotExt.Classes
             public int Title_FK { get; set; }
             public string Surname { get; set; }
             public string Firstname { get; set; }
+            public string ReferalCode { get; set; }
             public string Othernames { get; set; }
             public int Gender_FK { get; set; }
             public int MaritalStatus_FK { get; set; }

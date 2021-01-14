@@ -12,6 +12,19 @@ namespace DataAccessA.DataManager
     {
         static UvlotAEntities uvDb = new UvlotAEntities();
 
+
+        public string TestRecord()
+        {
+            try
+            {
+                return "";
+            }
+            catch (Exception ex)
+            {
+                WebLog.Log(ex.Message.ToString());
+                return null;
+            }
+        }
         public static int SaveBVNDetails(BVNC bvnc)
         {
             int i = 0;
@@ -64,6 +77,24 @@ namespace DataAccessA.DataManager
 
         }
 
+
+        public int SaveApplication(NyscLoanApplication NyscLA)
+        {
+            try
+            {
+
+                uvDb.NyscLoanApplications.Add(NyscLA);
+                uvDb.SaveChanges();
+                return NyscLA.ID;
+
+            }
+            catch (Exception ex)
+            {
+                WebLog.Log(ex.Message);
+                return 0;
+            }
+
+        }
         public int insertRemita(PatnerTransactLog PL)
         {
 
@@ -160,6 +191,138 @@ namespace DataAccessA.DataManager
             }
 
         }
+
+        public int UpdateLedger(string IDS, LoanLedger LoanLedger)
+        {
+            try
+            {
+                int ID = Convert.ToInt32(IDS);
+                LoanLedger.ID = ID;
+                var resp = uvDb.LoanLedgers.Find(LoanLedger.ID);
+
+                if (resp != null)
+                {
+                    // resp.Credit = resp.Debit;
+                    resp.Credit = LoanLedger.Credit;
+                    resp.PaymentFlag_FK = LoanLedger.PaymentFlag_FK;
+                    uvDb.SaveChanges();
+                }
+                return resp.ID;
+            }
+            catch (Exception ex)
+            {
+                WebLog.Log(ex.Message.ToString());
+                return 0;
+            }
+        }
+
+
+
+        public NYSCLoanLedger InsertLedgerTransact(string IDS, NYSCLoanLedger LoanLedger, Repayment Lt, float Ampd)
+        {
+            try
+            {
+                int ID = Convert.ToInt32(IDS);
+                LoanLedger.ID = ID;
+                var resp = uvDb.NYSCLoanLedgers.Find(LoanLedger.ID);
+                if (resp != null)
+                {
+                    // Lt.colss = resp.ID;
+                    // Lt.cols = instFk;
+                    if (Ampd == 0)
+                    {
+                        Lt.Amount = resp.Credit;
+                    }
+                    else
+                    {
+                        Lt.Amount = Ampd;
+                    }
+                   
+                    Lt.Created = MyUtility.getCurrentLocalDateTime();
+                    Lt.Reference = resp.ReferenceNumber;
+                    Lt.LedgerFlag = resp.ID;
+                 
+                    
+                    uvDb.Repayments.Add(Lt);
+
+                    uvDb.SaveChanges();
+                }
+
+                return resp;
+            }
+            catch (Exception ex)
+            {
+                WebLog.Log(ex.Message.ToString());
+                return null;
+            }
+        }
+
+
+
+        public int UpdateLedger(string IDS, NYSCLoanLedger LoanLedger)
+        {
+            try
+            {
+                int ID = Convert.ToInt32(IDS);
+                // LoanLedger.ID = ID;
+                // var resp = uvDb.NYSCLoanLedgers.Find(LoanLedger.ID);
+
+                var resp = uvDb.NYSCLoanLedgers.Find(ID);
+
+                if (resp != null)
+                {
+                    // resp.Credit = resp.Debit;
+                    resp.Debit = LoanLedger.Credit;
+                    resp.PaymentFlag = LoanLedger.PaymentFlag;
+                    uvDb.SaveChanges();
+                }
+                return resp.ID;
+            }
+            catch (Exception ex)
+            {
+                WebLog.Log(ex.Message.ToString());
+                return 0;
+            }
+        }
+
+        //public NYSCLoanLedger InsertLedgerTransact(string IDS, NYSCLoanLedger LoanLedger, Repayment Lt, float Ampd, int instFk)
+        //{
+        //    try
+        //    {
+        //        int ID = Convert.ToInt32(IDS);
+        //        LoanLedger.ID = ID;
+        //        var resp = uvDb.NYSCLoanLedgers.Find(LoanLedger.ID);
+        //        if (resp != null)
+        //        {
+        //            Lt.ID = resp.ID;
+        //            Lt.ID = instFk;
+        //            if (Ampd == 0)
+        //            {
+        //                Lt.Amount = resp.Debit;
+        //            }
+        //            else
+        //            {
+        //                Lt.Amount = Ampd;
+        //            }
+
+        //            //Lt. = resp.TranxDate;
+        //            //Lt.TrnDate = MyUtility.getCurrentLocalDateTime();
+        //            //Lt.ReferenceNumber = resp.RefNumber;
+        //            //Lt.ValueDate = MyUtility.getCurrentLocalDateTime().Date.ToString();
+        //            //Lt.ValueTime = MyUtility.getCurrentLocalDateTime().TimeOfDay.ToString();
+        //            uvDb.Repayment.Add(Lt);
+        //            uvDb.SaveChanges();
+        //        }
+
+        //        return resp;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        WebLog.Log(ex.Message.ToString());
+        //        return null;
+        //    }
+        //}
+
 
         public static int  CreateNYSCLoanApplication(NyscLoanApplication NyscLA)
         {

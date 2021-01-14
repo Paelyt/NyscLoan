@@ -22,6 +22,8 @@ namespace DataAccessA.DataManager
         public string BankAcct { get; set; }
         public string BankName { get; set; }
         public string RefNum { get; set; }
+        public string MandateID { get; set; }
+        public string BankCode { get; set; }
         public Nullable<System.DateTime> DateCreated { get; set; }
         public Nullable<System.DateTime> ValueDate { get; set; }
         public Nullable<System.DateTime> ValueTime { get; set; }

@@ -17,6 +17,12 @@ namespace DataAccessA.DataManager
         public int ID { get; set; }
         public Nullable<int> Tenure { get; set; }
         public Nullable<double> Amount { get; set; }
+        public Nullable<double> Repayments { get; set; }
+        public Nullable<double> ManagementFee { get; set; }
         public Nullable<double> Repayment { get; set; }
+        public Nullable<double> MonthlyInterest { get; set; }
+        public Nullable<double> MonthlyInterestAmount { get; set; }
+        public Nullable<int> IsVisible { get; set; }
+        public Nullable<System.DateTime> ValueDate { get; set; }
     }
 }

@@ -189,7 +189,7 @@ namespace DataAccessA
 
         }
 
-        public BVNC BVNValidationResps(string bvnNumber)
+        public static BVNC BVNValidationResps(string bvnNumber)
         {
 
             BVNC BC = new BVNC();
@@ -229,7 +229,7 @@ namespace DataAccessA
                     BC.Phone = resps.data.phone_number;
                     BC.RegistrationDate = resps.data.registration_date;
                     BC.EnrollmentBank = resps.data.enrollment_bank == null ? "" : resps.data.enrollment_bank;
-                    BC.EnrollmentBank = _DR.GetBankCode(BC.EnrollmentBank);
+                    BC.EnrollmentBank = Helper.GetRemitaBankCodeByFlutterCode(BC.EnrollmentBank);
                     BC.EnrollmentBranch = resps.data.enrollment_branch;
                     //BC.image_base_64 = resps.data.image_base_64;
                     BC.address = resps.data.address;
@@ -254,6 +254,28 @@ namespace DataAccessA
             }
         }
 
+
+        public  string GetBankCode(string BANKNAME)
+        {
+            try
+            {
+                var Bank = (from a in uvDb.Banks
+                            where a.Name == BANKNAME
+                            select a.Code).FirstOrDefault();
+                if (Bank == null)
+                {
+
+                    return null;
+                }
+
+                return Bank;
+            }
+            catch (Exception ex)
+            {
+                WebLog.Log(ex.StackTrace);
+                return null;
+            }
+        }
 
 
 
@@ -428,6 +450,68 @@ namespace DataAccessA
             }
             return resp;
         }
+
+
+        public static string DoPosts(string url, [Optional]string Authorization, [Optional]string MERCHANT_ID, [Optional]string API_KEY, [Optional]string REQUEST_ID, [Optional]string REQUEST_TS, [Optional]string API_DETAILS_HASH, string json)
+        {
+            string resp;
+            try
+            {
+                string partnerID = ConfigurationManager.AppSettings["PartnerID"];
+                string partnerkey = ConfigurationManager.AppSettings["PartnerKey"];
+
+
+
+                using (var client = new WebClient())
+                {
+                    client.Headers[HttpRequestHeader.ContentType] = "application/json";
+
+                    if (!string.IsNullOrWhiteSpace(partnerID))
+                    {
+
+                        client.Headers.Add("partnerID", partnerID);
+                        client.Headers.Add("partnerKey", partnerkey);
+
+                    }
+                    /*  if (!string.IsNullOrWhiteSpace(MERCHANT_ID))
+                    {
+
+                         client.Headers.Add("partnerID", partnerID);
+                        client.Headers.Add("partnerKey", partnerkey);
+                      For Test
+                         client.Headers.Set("MERCHANT_ID", MERCHANT_ID);
+                         client.Headers.Set("API_KEY", API_KEY);
+                         client.Headers.Set("REQUEST_ID", REQUEST_ID);
+                         client.Headers.Set("REQUEST_TS", REQUEST_TS);
+                         client.Headers.Set("API_DETAILS_HASH", API_DETAILS_HASH);
+                        
+                } */
+                    resp = client.UploadString(url, "POST", json);
+                }
+            }
+            catch (WebException wex)
+            {
+                //WebLog.Log(wex);
+                using (var response = (HttpWebResponse)wex.Response)
+                {
+                    var statusCode = response != null ? (int)response.StatusCode : 500;
+                    if (statusCode == 500 && response == null) return null;
+                    var dataStream = response?.GetResponseStream();
+                    if (dataStream == null) return null;
+                    using (var tReader = new StreamReader(dataStream))
+                    {
+                        resp = tReader.ReadToEnd();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // WebLog.Log(ex);
+                resp = ex.Message;
+            }
+            return resp;
+        }
+
 
         private static void WaitTime(double seconds)
         {
